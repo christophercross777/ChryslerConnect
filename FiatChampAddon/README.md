@@ -1,15 +1,12 @@
-# ![image](https://user-images.githubusercontent.com/30373916/190129327-ca33228f-9864-418a-a65c-8be4de9592bc.png)  FiatChamp 🚗
+# ChryslerConnect (UConnect)
 
-Connect your FIAT, Jeep, Ram, Dodge, AlfaRomeo car 🚗 or truck 🚚 to Home Assistant. Needs a vehicle with enabled uconnect services and valid account.
+Connect your Chrylser, Jeep, Ram, Dodge vehicle to Home Assistant. Needs a vehicle with enabled uconnect services and valid account. UConnect 5 now supported. 
 
-- Fiat: Works ✅
-- Jeep: Works ✅
-- Ram: Experimental ⚠️ 
-- Dodge: Unknown ⛔
-- AlfaRomeo: Unknown ⛔
-
-I have created this addon for my own car 🚗 (new Fiat Icon 500e) and its the only one i can test it with. 
-Work in progress so expect some bugs 🐞. 😅
+- Fiat: Working
+- Jeep: Working
+- Chrysler: Working
+- Ram: Working
+- Dodge: Working
 
 Example dashboard using sensors and entities provided by this addon:
 
