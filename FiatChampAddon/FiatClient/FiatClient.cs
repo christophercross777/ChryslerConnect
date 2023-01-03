@@ -283,7 +283,7 @@ public class FiatClientFake : IFiatClient
 
 public enum FcaBrand
 {
-  Fiat,
+  Chrysler,
   Ram,
   Jeep,
   Dodge,
