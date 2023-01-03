@@ -283,6 +283,7 @@ public class FiatClientFake : IFiatClient
 
 public enum FcaBrand
 {
+  Fiat,
   Chrysler,
   Ram,
   Jeep,
@@ -349,7 +350,7 @@ public class FiatClient : IFiatClient
       _awsEndpoint = RegionEndpoint.USEast1;
       _locale = "en_us";
     }
-    else if (_brand == FcaBrand.Chrysler && _region == FcaRegion.America)
+    else if (_brand == FcaBrand.Chrysler)
     {
       _loginApiKey = "3_etlYkCXNEhz4_KJVYDqnK1CqxQjvJStJMawBohJU2ch3kp30b0QCJtLCzxJ93N-M";
       _apiKey = "OgNqp2eAv84oZvMrXPIzP8mR8a6d9bVm1aaH9LqU";
