@@ -14,7 +14,7 @@ options:
   FiatUser: ""
   FiatPw: ""
   FiatPin: ""
-  Brand: "Chrysler"
+  Brand: "Fiat"
   RefreshInterval: 15
   ConvertKmToMiles: false
   Debug: false
@@ -27,7 +27,7 @@ schema:
   FiatUser: str
   FiatPw: password
   FiatPin: password?
-  Brand: list(Chrysler|Ram|Jeep|Dodge)
+  Brand: list(Fiat|Chrysler|Ram|Jeep|Dodge)
   Region: list(Europe|America)
   ConvertKmToMiles: bool
   RefreshInterval: int
