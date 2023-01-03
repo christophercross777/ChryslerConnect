@@ -14,7 +14,7 @@ options:
   FiatUser: ""
   FiatPw: ""
   FiatPin: ""
-  Brand: "Fiat"
+  Brand: "Chrysler"
   RefreshInterval: 15
   ConvertKmToMiles: false
   Debug: false
